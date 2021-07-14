@@ -12,6 +12,12 @@ body{
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
 }
+.together{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 /* For all similar tag */
 
@@ -208,6 +214,7 @@ h1{
     align-items: center;
     margin: 20px 0px;
     flex-direction: column;
+   
 }
 .kitsitem h3{
     text-align: center;
@@ -220,8 +227,11 @@ h1{
 }
 .kit img{
     height: 300px;
+    width: 300px;
     margin: 30px;
 }
+
+
 
 
 
@@ -241,11 +251,10 @@ h1{
 /* footer start  */
 .lastsection{
    position:relative;
-   left: 30%;
-   top: 80%;
-  
-  
-   
+   width: 1440px; 
+   display: flex;
+   justify-content: center;
+
 }
 
 .total{
